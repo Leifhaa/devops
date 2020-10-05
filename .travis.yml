@@ -3,7 +3,7 @@ services:
   - docker
 env:
   global:
-  - GCP_PROJECT_ID=pgr301-docker-demo
+  - GCP_PROJECT_ID=verdant-inquiry-291607
   - IMAGE=gcr.io/pgr301-docker-demo/helloworld
   - CLOUD_RUN_SERVICE=pgr301-docker-demo
   - CLOUD_RUN_REGION=us-central1
